@@ -1,4 +1,4 @@
-#### Available Scripts
+## Available Scripts
 
 ## `npm install`
 Install all necessary dependencies.
