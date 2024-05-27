@@ -1,6 +1,6 @@
 ## Available Scripts
 
-## `npm install`
+### `npm install`
 Install all necessary dependencies.
  
 
