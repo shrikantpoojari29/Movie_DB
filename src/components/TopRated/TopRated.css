@@ -1,0 +1,30 @@
+ .top-rated-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  background-color: #121111;
+}
+
+.movie-item-five {
+  text-align: center;
+  background: #121111;
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 8px;
+}
+
+.movie-item-five img {
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 4px;
+}
+
+.movie-item-five p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+ 

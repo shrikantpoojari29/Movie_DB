@@ -1,0 +1,60 @@
+.popular-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  background-color: #121111;
+}
+
+.movie-item {
+  cursor: pointer;
+  text-align: center;
+  background: #121111;
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 8px;
+}
+
+.movie-item img {
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 4px;
+}
+
+.movie-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+
+.pagination {
+  margin: 0;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: #121111;
+  list-style-type: none;
+}
+
+.pagination button {
+  background-color: #121111;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.page-link.current-page {
+  color: rgb(238, 255, 0); 
+  font-weight: bold;
+}

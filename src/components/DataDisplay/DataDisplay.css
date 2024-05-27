@@ -1,0 +1,55 @@
+.data-display-contain{
+  background-color: #121111;
+}
+
+.data-display-container {
+  background-color: #110c0c;
+  padding: 20px;
+}
+
+.data-display-containers {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+  background-color: #121111;
+}
+
+.movie-itemtwo {
+  display: flex;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: right 50%;
+}
+
+.movie-item-on{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  padding: 10px;
+}
+
+.cast-movie{
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+.runtime{
+  display: flex;
+}
+
+.runtimeBox {
+  border: 2px solid hsl(0, 0%, 22%);
+  border-radius: 5px;
+  background-color: #121111;
+  display: inline-block;
+}
+
+.runtimegen{
+  margin: 3px;
+}
+
+.main{
+  margin: 6px;
+}
