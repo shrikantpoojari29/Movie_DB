@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 for installing dependencies:
 
-## `npm install`
+### `npm install`
  
 
 ### `npm start`
